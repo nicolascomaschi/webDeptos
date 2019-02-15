@@ -15,6 +15,7 @@ app.use(require('./routes/routes'));
 ////middlewares////
 
 ////static files////
+app.use(express.static(path.join(__dirname,'public')));
 
 ////listenig the server////
 app.listen(app.get('port'), () => {
