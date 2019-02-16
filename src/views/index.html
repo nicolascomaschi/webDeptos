@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,80 +8,298 @@
     <title>El aljibe</title>
     <% include partials/head.html %>
 </head>
+
 <body>
-    <div class="page">
-        <header>
-            <% include partials/navigation.html %>
-        </header>
-        <section class="banner">
-            <div class="inner">
-                <h2>El aljibe</h2>
-                <p>Alquileres<br />
-                temporarios<br />
-                crafted by <a href="">ME</a>.</p>
-                <ul class="actions">
-                    <li><a href="#" class="button special">Conoscanos</a></li>
-                </ul>
+    <div id="preloader"></div>
+
+    <!--=== Hero Section ===-->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="wow fadeIn">
+                <div class="hero-logo">
+                    <img class="animated zoomIn" src="img/logo.png" alt="El Aljibe">
+                </div>
+
+                <h1 style="font-style: italic;">Alquileres Temporarios</h1>
+                <h2>Tu espacio de <span class="rotating">calides, relax, comodidad</span>
+                </h2>
+                <div class="actions">
+                    <a href="#about" class="btn-get-started">Conócenos</a>
+                    <a href="#services" class="btn-services">Servicios</a>
+                </div>
             </div>
-            <a href="#one" class="more scrolly">Learn More</a>
-        </section>
-        <section id="about" class="wrapper style1 special">
-            <div class="inner">
-                <header class="major">
-                    <h2>Arcu aliquet vel lobortis ata nisl<br />
-                        eget augue amet aliquet nisl cep donec</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-                        fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-                </header>
-                <ul class="icons major">
-                    <li><span class="icon fa-diamond major style1"><span class="label">Calides</span></span></li>
-                    <li><span class="icon fa-heart-o major style2"><span class="label">Armonia</span></span></li>
-                    <li><span class="icon fa-code major style3"><span class="label">Calidad</span></span></li>
-                </ul>
+        </div>
+    </section>
+
+    <!--=== Header Section ===-->
+    <header id="header">
+        <% include partials/navigation.html %>
+    </header>
+
+    <!--=== About Section ===-->
+    <section id="about">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Sobre nosotros</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam</p>
+                </div>
             </div>
-        </section>
-        <section id="department" class="wrapper alt style2">
-            <section class="spotlight">
-                <div class="image"><img src="images/pic01.jpg" alt="" /></div>
-                <div class="content">
-                    <h2>depto 2 personas<br />
-                        sed ullamcorper</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam
-                        aenean mi ligula.</p>
+        </div>
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-6 img-about">
+                    <img src="/img/1.jpeg" alt="">
                 </div>
-            </section>
-            <section class="spotlight">
-                <div class="image"><img src="images/pic02.jpg" alt="" /></div>
-                <div class="content">
-                    <h2>depto 4 personas<br />
-                        elementum magna</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam
-                        aenean mi ligula.</p>
+                <div class="col-md-6">
+                    <h2 class="about-title">We provide great services and ideass</h2>
+                    <p class="about-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate
+                    </p>
+                    <p class="about-text">
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum
+                    </p>
+                    <p class="about-text">
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum
+                    </p>
                 </div>
-            </section>
-            <section class="spotlight">
-                <div class="image"><img src="images/pic03.jpg" alt="" /></div>
-                <div class="content">
-                    <h2>depto matrimonial<br />
-                        sed condimentum</h2>
-                    <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam
-                        aenean mi ligula.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--=== Services Section ===-->
+    <section id="services">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Our Services</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium</p>
                 </div>
-            </section>
-        </section>
-        <footer id="footer">
-            <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; Untitled</li>
-                <li>Design: <a href="#">me</a></li>
-            </ul>
-        </footer>
-    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 service-item">
+                    <div class="service-icon"><i class="fa fa-desktop"></i></div>
+                    <h4 class="service-title"><a href="">Lorem Ipsum</a></h4>
+                    <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                        excepturi sint occaecati cupiditate non provident</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+                    <h4 class="service-title"><a href="">Dolor Sitema</a></h4>
+                    <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat tarad limino ata</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+                    <h4 class="service-title"><a href="">Sed ut perspiciatis</a></h4>
+                    <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon"><i class="fa fa-photo"></i></div>
+                    <h4 class="service-title"><a href="">Magni Dolores</a></h4>
+                    <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia
+                        deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon"><i class="fa fa-road"></i></div>
+                    <h4 class="service-title"><a href="">Nemo Enim</a></h4>
+                    <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium voluptatum deleniti atque</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
+                    <h4 class="service-title"><a href="">Eiusmod Tempor</a></h4>
+                    <p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+                        tempore, cum soluta nobis est eligendi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=== Subscrbe Section ===-->
+    <section id="subscribe">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="subscribe-title">Subscribe For Updates</h3>
+                    <p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies,
+                        product announcements and much more!</p>
+                </div>
+                <div class="col-md-4 subscribe-btn-container">
+                    <a class="subscribe-btn" href="#">Subscribe Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=== Departaments Section ===-->
+    <section id="departaments">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Departamentos</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses
+                        haec
+                        dicturum fuisse</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="profile">
+                        <div class="pic"><img src="/img/individual.jpeg" alt=""></div>
+                        <h4>Suite individual</h4>
+                        <span><a>Ver Mas...</a></span>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="quote">
+                        Proin iaculis purus consequat sem cure digni ssim
+                        donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh
+                        et.
+                        Maecen aliquam, risus at semper.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="quote">
+                        <b><img src="img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus
+                        error
+                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                        inventore veritatis architecto beatae. <small><img src="img/quote_sign_right.png"
+                                alt=""></small>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="profile">
+                        <div class="pic"><img src="/img/matrimonial.jpeg" alt=""></div>
+                        <h4>Suite Matrimonial</h4>
+                        <span><a>Ver Mas..</a></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--=== Contact Section ===-->
+    <section id="contact">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Contáctanos</h3>
+                    <div class="section-title-divider"></div>
+                    <p class="section-description">Envianos un mensaje, tu consulta no nos molesta.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-md-push-2">
+                    <div class="info">
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Bartolome Mitre 182<br>Santa Lucía, Corrientes</p>
+                        </div>
+
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <p>info@example.com</p>
+                        </div>
+
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <p>+54-3777 55-5612</p>
+                        </div>
+
+                        <div>
+                            <i class="fab fa-facebook"></i>
+                            <p><a style="color: #333333"
+                                    href="https://www.facebook.com/Departamentos-El-Aljibe-2093154947643021/">Departamentos
+                                    El Aljibe</a></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-md-push-2">
+                    <div class="form">
+                        <div id="sendmessage">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+                        <form action="" method="post" role="form" class="contactForm">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name"
+                                    placeholder="Ingese un nombre" data-rule="minlen:4"
+                                    data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Ingrese un email" data-rule="email"
+                                    data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+                                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                    data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                            <div class="text-center"><button type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--=== Footer ===-->
+    <% include partials/footer.html %>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <script>
+        jQuery(document).ready(function( $ ) {
+            $("#hero .rotating").Morphext({
+                animation: "flipInX",
+                separator: ",",
+                speed: 3000
+            });
+        });
+    </script>
+
 </body>
+
 </html>
